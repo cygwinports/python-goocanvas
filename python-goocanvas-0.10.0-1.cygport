@@ -1,0 +1,6 @@
+inherit pygtk
+
+HOMEPAGE="http://developer.berlios.de/projects/pygoocanvas/"
+SRC_URI="mirror://berlios/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+
+DIFF_EXCLUDES="pygoocanvas.pc"
