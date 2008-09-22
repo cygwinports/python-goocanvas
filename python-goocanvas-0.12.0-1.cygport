@@ -1,0 +1,5 @@
+inherit pygtk
+
+HOMEPAGE="http://developer.berlios.de/projects/pygoocanvas/"
+
+DISTCLEANFILES="pygoocanvas.pc"
