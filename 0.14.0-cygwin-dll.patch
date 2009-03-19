@@ -1,0 +1,14 @@
+--- origsrc/pygoocanvas-0.14.0/Makefile.am	2008-11-14 18:06:04.000000000 -0600
++++ src/pygoocanvas-0.14.0/Makefile.am	2009-03-19 02:37:48.138750000 -0500
+@@ -39,9 +39,9 @@ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = pygoocanvas.pc
+ EXTRA_DIST += pygoocanvas.pc
+ 
+-if PLATFORM_WIN32
++if OS_WIN32
+ # Python .pyd modules are simply DLLs, but they have to be called .pyd for
+ # python to find them, and libtool only creates .dll.
+ install-exec-hook:
+-	mv $(pyexecdir)/goocanvasmodule.dll $(pyexecdir)/goocanvas.pyd
++	mv $(DESTDIR)$(pyexecdir)/goocanvasmodule.dll $(DESTDIR)$(pyexecdir)/goocanvas.pyd
+ endif
