@@ -3,6 +3,6 @@ inherit pygtk
 HOMEPAGE="http://developer.berlios.de/projects/pygoocanvas/"
 
 PATCH_URI="0.14.0-cygwin-dll.patch
-           0.14.0-libtool22.patch"
+           0.14.1-pycairo182.patch"
 
 DISTCLEANFILES="pygoocanvas.pc"

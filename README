@@ -3,12 +3,12 @@ python-goocanvas
 Python bindings for the GooCanvas cairo-based GTK+ canvas widget.
 
 Runtime requirements:
-  cygwin-1.7.0-43
+  cygwin-1.7.0-48
   libcairo2-1.8.6-10
   libgcc1-4.3.2-2
-  libglib2.0_0-2.20.0-1
+  libglib2.0_0-2.20.3-1
   libgoocanvas3-0.14-1
-  libgtk2.0_0-2.16.0-1
+  libgtk2.0_0-2.16.2-1
   python-2.5.4-10
   python-cairo-1.8.2-10
   python-gobject2-2.16.1-10
@@ -17,14 +17,14 @@ Runtime requirements:
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
   cygport-0.9.6-1
   gcc4-core-4.3.2-2
   gtk-doc-1.11-2
-  libtool-2.2.7a-1
+  libtool-2.2.7a-12
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
 
 Canonical website:
   http://developer.berlios.de/projects/pygoocanvas/
@@ -35,15 +35,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-goocanvas-0.14.0-X-src.tar.bz2
+  unpack python-goocanvas-0.14.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-goocanvas-0.14.0-X.cygport all
+  cygport ./python-goocanvas-0.14.1-X.cygport all
 
 This will create:
-  /usr/src/python-goocanvas-0.14.0-X-src.tar.bz2
-  /usr/src/python-goocanvas-0.14.0-X.tar.bz2
+  /usr/src/python-goocanvas-0.14.1-X-src.tar.bz2
+  /usr/src/python-goocanvas-0.14.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -95,6 +95,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.14.1-1 -----
+Version bump.
 
 ----- version 0.14.0-1 -----
 Initial release for Cygwin 1.7.
