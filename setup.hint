@@ -1,4 +1,4 @@
 category: Gnome Python
-requires: libcairo2 libgcc1 libglib2.0_0 libgtk2.0_0 libgoocanvas3 python python-cairo python-gobject2 python-gtk2
+requires: libcairo2 libgcc1 libglib2.0_0 libgtk2.0_0 libgoocanvas3 python python-cairo python-gobject2.0 python-gtk2.0
 sdesc: "Python GooCanvas bindings"
 ldesc: "Python bindings for the GooCanvas cairo-based GTK+ canvas widget"

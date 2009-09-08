@@ -3,26 +3,26 @@ python-goocanvas
 Python bindings for the GooCanvas cairo-based GTK+ canvas widget.
 
 Runtime requirements:
-  cygwin-1.7.0-48
-  libcairo2-1.8.6-10
+  cygwin-1.7.0-60
+  libcairo2-1.8.8-1
   libgcc1-4.3.2-2
-  libglib2.0_0-2.20.3-1
+  libglib2.0_0-2.20.5-1
   libgoocanvas3-0.14-1
-  libgtk2.0_0-2.16.2-1
+  libgtk2.0_0-2.16.5-1
   python-2.5.4-10
-  python-cairo-1.8.2-10
-  python-gobject2-2.16.1-10
-  python-gtk2-2.14.1-1
+  python-cairo-1.8.6-1
+  python-gobject2.0-2.18.0-1
+  python-gtk2.0-2.16.0-1
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
   automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.6-1
+  binutils-2.19.51-1
+  cygport-0.9.9-1
   gcc4-core-4.3.2-2
   gtk-doc-1.11-2
-  libtool-2.2.7a-12
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
 
@@ -95,6 +95,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.14.1-2 -----
+Rebuilt for API change in pycairo-1.8.6.
 
 ----- version 0.14.1-1 -----
 Version bump.
