@@ -1,0 +1,15 @@
+inherit pygtk
+
+NAME="python-goocanvas"
+VERSION=0.14.1
+RELEASE=4
+CATEGORY="Python"
+SUMMARY="Python GooCanvas bindings"
+DESCRIPTION="Python bindings for the GooCanvas cairo-based GTK+ canvas widget"
+HOMEPAGE="http://developer.berlios.de/projects/pygoocanvas/"
+
+PATCH_URI="0.14.0-cygwin-dll.patch"
+
+DISTCLEANFILES="pygoocanvas.pc"
+
+REQUIRES="python-cairo python-gobject python-gtk2.0"
